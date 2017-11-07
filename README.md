@@ -9,7 +9,7 @@
 ## Useful links
 
 - [JSD9 class website](https://svodnik.github.io/jsd9)
-- [JSD9 homework repository](https://github.com/svodonik/JS-SF-9-homework)
+- [JSD9 homework repository](https://github.com/svodnik/JS-SF-9-homework)
 - [Exit ticket](https://goo.gl/forms/zkb7FsVNXHmdPecq2)
 - [Snack signup](https://codesnacks.youcanbook.me)
 

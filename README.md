@@ -1,5 +1,5 @@
 # Student Resources
-## General Assembly San Francisco JavaScript Development 8 
+## General Assembly San Francisco JavaScript Development 9 
 
 - Wednesday, September 6 - Monday, November 13
 - Holidays: none
@@ -8,18 +8,18 @@
 
 ## Useful links
 
-- [JSD8 class website](https://svodnik.github.io/jsd8)
-- [JSD8 homework repository](https://github.com/Borgaard/JS-SF-8-homework)
-- [Exit ticket](https://bitly.com/JSD8exit)
-- [Snack signup](https://jsdsnacks.youcanbook.me)
+- [JSD9 class website](https://svodnik.github.io/jsd9)
+- [JSD9 homework repository](https://github.com/svodonik/JS-SF-9-homework)
+- [Exit ticket](https://goo.gl/forms/zkb7FsVNXHmdPecq2)
+- [Snack signup](https://codesnacks.youcanbook.me)
 
 ---
 
 ## Office Hours
 
-- Monday & Wednesday, 5:30pm - 6:30pm
-- Find Nicole in our classroom (#8) or in the workspace/lounge behind the classroom. If you don't see her, message her on Slack to find out where she is.
-- Other office hours available by appointment with Nicole, Dante, or Sasha.
+- Tuesday & Thursday, 5:00pm - 6:00pm
+- Find Sasha at the communal table to the left of the front desk.
+- Other office hours available by appointment with Sasha.
 
 ---
 
@@ -29,7 +29,7 @@ Includes all scheduled classes and holidays, as well as snack signups.
 To use:
 1. Copy the following calendar link:
 
-    ```webcal://p53-calendars.icloud.com/published/2/hu3E_dBzPi6QTRUEdjwaGVAc0X3Vvg-6uVUcUt9Mu07VJ3zuo5ZSy1-yuB640BpuQaSMMwvxfZw5zyvS42ytRcxG3lLgxXlMByMste1wPsQ```
+    ```webcal://p53-calendars.icloud.com/published/2/2ex0lsKSpKz_G7fuIIgWRjMw9qBcWTRwvcAITf_nt4mWYp5yVBwlrrwbD2l33Op_404hELgNniz2QpyIN4S5b6d-DmBH8MYkE6fCwdMJJw8```
 
 2. In your calendar program, select the option to subscribe to a calendar, then paste the copied link as the calendar to subscribe to.
     - Google Calendar: `Other Calendars` (sidebar) > `Add by URL`
@@ -42,7 +42,7 @@ To use:
   <dt><code>starter-code</code> folder</dt>
   <dd>Starting files for codealongs and labs we do in class, as well as for homework assignments</dd>
   <dt><code>solution-code</code> folder</dt>
-  <dd>Solution files for codealongs we do together in class</dd>
+  <dd>Solution files for codealongs we do together in class, as well as for the previous week's homework when applicable</dd>
 
 </dl>
 

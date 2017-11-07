@@ -1,7 +1,7 @@
 # Student Resources
 ## General Assembly San Francisco JavaScript Development 9 
 
-- Wednesday, September 6 - Monday, November 13
+- Tuesday, November 7 - Tuesday, January 23
 - Holidays: none
 
 ---

@@ -53,21 +53,31 @@ Your instructor should provide you with a Hubot and an API token; be sure to hav
 
     In Finder, navigate to the folder for your hubot, locate the `hubot-scripts.json` file, then move it to the trash. This file is no longer supported, and its presence could generate errors later on.
 
+9. **Copy the script.js file from your start files for today into your `myhubot` > `scripts` folder.**
+
+    In Finder, navigate to the `JSD` > `JS-SF-9-resources` > `05-slackbot-lab` > `start-files` > `2-hubot-code` folder. Copy the `script.js` file, navigate to the folder for your hubot (`JSD` > `myhubot`), open the `scripts` folder, then paste the file you copied.
+
+    This is the file where you will write the code for your hubot.
+
+10. **Drag the `example.coffee` file to the trash.
+
+    We want to have just a single file in the `scripts` folder to avoid confusion.
+
     Now we need to push up our bot to Heroku.
 
-9. **Initialize your local repository:**
+11. **Initialize your local repository:**
 
     `$ git init`
 
-10. **Add all of your new files:**
+12. **Add all of your new files:**
 
     `$ git add .`
 
-11. **Commit your new files:**
+13. **Commit your new files:**
 
     `$ git commit -m "Initial Commit"`
 
-12. **Create a new app on Heroku:**
+14. **Create a new app on Heroku:**
 
     `$ heroku login`
 
@@ -80,7 +90,7 @@ Your instructor should provide you with a Hubot and an API token; be sure to hav
     where `myhubotapp` is a unique app name; any app name already used by a heroku user will fail with "Name is already taken." 
     If this happens, just repeat the command with a different app name. (The more unusual the name, the more likely it is to be unique.)
 
-13. **Add the following configs for Slack:**
+15. **Add the following configs for Slack:**
 
     `$ heroku config:add HEROKU_URL=https://myhubotapp.herokuapp.com`
 
@@ -90,7 +100,7 @@ Your instructor should provide you with a Hubot and an API token; be sure to hav
 
     where `YourTokenGoesHere` is the API token provided by the instructor
 
-14. **Push all your code up to Heroku**
+16. **Push all your code up to Heroku**
 
     `$ git push heroku master`
 
@@ -106,12 +116,14 @@ Your instructor should provide you with a Hubot and an API token; be sure to hav
     * `git push heroku master`
 * Assuming you do not receive an error, proceed to the next step.
 
-15. **Test your bot locally to make sure it's working:**
+17. **Test your bot locally to make sure it's working:**
 
     `./bin/hubot`
 
     You'll receive a number of messages, including some warnings, which should not be a problem. When the messages stop, press Enter.
     
     You should have a prompt containing your bot name. 
+
+    After you write code for your bot, you can test it here. At the moment, your bot doesn't yet do anything.
     
-    Press `control` + `C` when you're done, to return to the shell prompt.
+    Press `control` + `C` to return to the shell prompt.

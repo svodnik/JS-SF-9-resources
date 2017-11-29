@@ -13,19 +13,23 @@ Your instructor should provide you with a Hubot and an API token; be sure to hav
 
 3. **Create your hubot directory:**
 
-     Navigate to the parent directory in which you want to create the folder that will contain your app code. This should be the parent directory whose subfolders contain your existing clones of the repos for this course -- for instance, in the folder structure shown below, you would navigate to the `JSD` folder:
-
-        JSD
-            L JS-SF-9-homework (existing: clone of GitHub homework repo fork svodnik / JS-SF-9-homework)
-            L JS-SF-9-resources (existing: clone of GitHub resources repo svodnik / JS-SF-9-resources)
-            L username.github.io (existing: clone of your personal github.io repo)
-            L myhubot (new repo you are about to create for your Slack bot code) 
+    Navigate to the `JSD` folder. This is the parent directory whose subfolders contain your existing clones of the repos for this course:
 
     Then execute the following command to create a new folder named `myhubot`:
 
      `mkdir myhubot`
 
-4. **Move into that new directory:**
+    Your updated folder structure should look similar to the following:
+
+        JSD
+            L JS-SF-9-homework
+            L JS-SF-9-resources
+            L username.github.io
+            L myhubot 
+
+
+
+4. **Move into the new directory:**
 
     `cd myhubot`
 

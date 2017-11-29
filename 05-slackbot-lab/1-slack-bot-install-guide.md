@@ -23,19 +23,19 @@ Your instructor should provide you with a Hubot and an API token; be sure to hav
 
     Then execute the following command to create a new folder named `myhubot`:
 
-     `$ mkdir myhubot`
+     `mkdir myhubot`
 
 4. **Move into that new directory:**
 
-    `$ cd myhubot`
+    `cd myhubot`
 
 5. **Install Hubot and its dependencies (CoffeeScript, Yeoman, and the Hubot generator):**
 
-    `$ npm install -g hubot coffee-script yo generator-hubot`
+    `npm install -g hubot coffee-script yo generator-hubot`
 
 6. **Using Yeoman, generate a Hubot bot:**
 
-    `$ yo hubot --adapter="slack"`
+    `yo hubot --adapter="slack"`
 
     This will prompt you to answer a few questions about your bot:
 
@@ -67,42 +67,42 @@ Your instructor should provide you with a Hubot and an API token; be sure to hav
 
 11. **Initialize your local repository:**
 
-    `$ git init`
+    `git init`
 
 12. **Add all of your new files:**
 
-    `$ git add .`
+    `git add .`
 
 13. **Commit your new files:**
 
-    `$ git commit -m "Initial Commit"`
+    `git commit -m "Initial Commit"`
 
 14. **Create a new app on Heroku:**
 
-    `$ heroku login`
+    `heroku login`
 
     then enter the email and password you used when setting up your Heroku account.
 
     You should see a confirmation that you are logged in, showing your email address.
 
-    `$ heroku create myhubotapp`
+    `heroku create myhubotapp`
 
     where `myhubotapp` is a unique app name; any app name already used by a heroku user will fail with "Name is already taken." 
     If this happens, just repeat the command with a different app name. (The more unusual the name, the more likely it is to be unique.)
 
 15. **Add the following configs for Slack:**
 
-    `$ heroku config:add HEROKU_URL=https://myhubotapp.herokuapp.com`
+    `heroku config:add HEROKU_URL=https://myhubotapp.herokuapp.com`
 
     where `myhubotapp` is the app name you created and used in the previous 2 steps
 
-    `$ heroku config:add HUBOT_SLACK_TOKEN=YourTokenGoesHere`
+    `heroku config:add HUBOT_SLACK_TOKEN=YourTokenGoesHere`
 
     where `YourTokenGoesHere` is the API token provided by the instructor
 
 16. **Push all your code up to Heroku**
 
-    `$ git push heroku master`
+    `git push heroku master`
 
     NOTE: If you get an error message that your build has failed, complete the following:
 

@@ -19,7 +19,7 @@ Your instructor should provide you with a Hubot and an API token; be sure to hav
 
      `mkdir myhubot`
 
-    Your updated folder structure should look similar to the following:
+    Your updated folder structure should look similar to the following.
 
         JSD
             L JS-SF-9-homework

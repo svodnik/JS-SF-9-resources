@@ -59,7 +59,7 @@ Your instructor should provide you with a Hubot and an API token; be sure to hav
 
     This is the file where you will write the code for your hubot.
 
-10. **Drag the `example.coffee` file to the trash.
+10. **Drag the `example.coffee` file to the trash.**
 
     We want to have just a single file in the `scripts` folder to avoid confusion.
 

@@ -106,15 +106,15 @@ Your instructor should provide you with a Hubot and an API token; be sure to hav
 
     NOTE: If you get an error message that your build has failed, complete the following:
 
-* In your `hubot` folder, open the `package.json` file in your editor.
+    * In your `hubot` folder, open the `package.json` file in your editor.
 
-* Near the bottom of the document, locate the line starting with `"node"` and change the numeric value after it to `"6.9.x"`.
+    * Near the bottom of the document, locate the line starting with `"node"` and change the numeric value after it to `"6.9.x"`.
 
-* Save your changes, then at the command line, in your `myhubot` folder, issue the following commands:
-    * `git add .`
-    * `git commit -m "updated node version"`
-    * `git push heroku master`
-* Assuming you do not receive an error, proceed to the next step.
+    * Save your changes, then at the command line, in your `myhubot` folder, issue the following commands:
+        * `git add .`
+        * `git commit -m "updated node version"`
+        * `git push heroku master`
+    * Assuming you do not receive an error, proceed to the next step.
 
 17. **Test your bot locally to make sure it's working:**
 
